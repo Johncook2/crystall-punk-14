@@ -89,7 +89,6 @@
     freeLearnedSkills:
     - AthleticT1
     - AthleticT2
-  - type: MessyDrinker
   - type: Inventory
     templateId: CP14Carcat # Cant wear shoes
     speciesId: carcat
