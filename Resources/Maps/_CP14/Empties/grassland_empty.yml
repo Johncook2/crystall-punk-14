@@ -18,8 +18,8 @@ tilemap:
   10: CP14FloorBirchWoodPlanks
   15: CP14FloorBirchWoodPlanksBig
   21: CP14FloorBirchWoodPlanksCruciform
-  20: CP14FloorDarkWoodPlanksBig
-  8: CP14FloorDarkWoodPlanksStairways
+  20: CP14FloorSpruceWoodPlanksBig
+  8: CP14FloorSpruceWoodPlanksStairways
   2: CP14FloorDirt
   4: CP14FloorFoundation
   28: CP14FloorGrass

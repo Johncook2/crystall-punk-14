@@ -14,9 +14,9 @@ orphans: []
 nullspace: []
 tilemap:
   3: Space
-  2: CP14FloorDarkWoodPlanks
-  6: CP14FloorDarkWoodPlanksCruciform
-  7: CP14FloorDarkWoodPlanksStairways
+  2: CP14FloorSpruceWoodPlanks
+  6: CP14FloorSpruceWoodPlanksCruciform
+  7: CP14FloorSpruceWoodPlanksStairways
   1: CP14FloorFoundation
   0: CP14FloorOakWoodPlanks
   4: CP14FloorOakWoodPlanksCruciform
