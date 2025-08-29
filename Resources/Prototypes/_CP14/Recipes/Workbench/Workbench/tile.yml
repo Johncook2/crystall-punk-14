@@ -143,7 +143,7 @@
   craftTime: 1
   requirements:
   - !type:StackResource
-    stack: CP14WoodenPlanks
+    stack: CP14SpruceWoodenPlanks
     count: 1
   result: CP14FloorTileSpruceWoodplanks
   resultCount: 4
@@ -155,7 +155,7 @@
   craftTime: 1
   requirements:
   - !type:StackResource
-    stack: CP14WoodenPlanks
+    stack: CP14SpruceWoodenPlanks
     count: 1
   result: CP14FloorTileSpruceWoodplanksBig
   resultCount: 4
@@ -167,7 +167,7 @@
   craftTime: 1
   requirements:
   - !type:StackResource
-    stack: CP14WoodenPlanks
+    stack: CP14SpruceWoodenPlanks
     count: 1
   result: CP14FloorTileSpruceWoodplanksCruciform
   resultCount: 4
@@ -179,7 +179,7 @@
   craftTime: 1
   requirements:
   - !type:StackResource
-    stack: CP14WoodenPlanks
+    stack: CP14SpruceWoodenPlanks
     count: 1
   result: CP14FloorTileSpruceWoodplanksStairs
   resultCount: 4

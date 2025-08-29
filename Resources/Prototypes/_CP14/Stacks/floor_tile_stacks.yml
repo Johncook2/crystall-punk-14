@@ -19,6 +19,8 @@
   icon: { sprite: _CP14/Objects/Tile/tile.rsi, state: marble_smallbricks }
   maxCount: 30
 
+### OAK
+
 - type: stack
   id: CP14FloorTileOakWoodplanks
   name: cp14-tiles-oak-woodplanks
@@ -46,6 +48,40 @@
   spawn: CP14FloorTileOakWoodplanksStairs
   icon: { sprite: _CP14/Objects/Tile/tile.rsi, state: oak_woodplanks_stairways }
   maxCount: 30
+
+### /OAK
+
+### SPRUCE
+
+- type: stack
+  id: CP14FloorTileSpruceWoodplanks
+  name: cp14-tiles-spruce-woodplanks
+  spawn: CP14FloorTileSpruceWoodplanks
+  icon: { sprite: _CP14/Objects/Tile/tile.rsi, state: spruce_woodplanks }
+  maxCount: 30
+
+- type: stack
+  id: CP14FloorTileSpruceWoodplanksBig
+  name: cp14-tiles-spruce-woodplanks-big
+  spawn: CP14FloorTileSpruceWoodplanksBig
+  icon: { sprite: _CP14/Objects/Tile/tile.rsi, state: spruce_woodplanks_big }
+  maxCount: 30
+
+- type: stack
+  id: CP14FloorTileSpruceWoodplanksCruciform
+  name: cp14-tiles-spruce-woodplanks-cruciform
+  spawn: CP14FloorTileSpruceWoodplanksCruciform
+  icon: { sprite: _CP14/Objects/Tile/tile.rsi, state: spruce_woodplanks_cruciform }
+  maxCount: 30
+
+- type: stack
+  id: CP14FloorTileSpruceWoodplanksStairs
+  name: cp14-tiles-spruce-woodplanks-stairways
+  spawn: CP14FloorTileSpruceWoodplanksStairs
+  icon: { sprite: _CP14/Objects/Tile/tile.rsi, state: spruce_woodplanks_stairways }
+  maxCount: 30
+
+### /SPRUCE
 
 - type: stack
   id: CP14FloorTileStonebricks

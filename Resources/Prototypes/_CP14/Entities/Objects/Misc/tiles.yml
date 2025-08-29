@@ -262,7 +262,7 @@
     materialComposition:
       CP14WoodenPlanks: 5
 
-### /OAK
+### /SPRUCE
 
 - type: entity
   parent: CP14FloorTileBase
