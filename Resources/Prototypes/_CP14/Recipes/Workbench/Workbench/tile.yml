@@ -82,6 +82,8 @@
   result: CP14FloorTileStonebricksSquareCarved
   resultCount: 4
 
+### OAK
+
 - type: CP14Recipe
   id: CP14FloorTileOakWoodplanks
   tag: CP14RecipeWorkbench
@@ -129,6 +131,60 @@
     count: 1
   result: CP14FloorTileOakWoodplanksStairs
   resultCount: 4
+
+### /OAK
+
+### Spruce
+
+- type: CP14Recipe
+  id: CP14FloorTileSpruceWoodplanks
+  tag: CP14RecipeWorkbench
+  category: FloorTile
+  craftTime: 1
+  requirements:
+  - !type:StackResource
+    stack: CP14WoodenPlanks
+    count: 1
+  result: CP14FloorTileSpruceWoodplanks
+  resultCount: 4
+
+- type: CP14Recipe
+  id: CP14FloorTileSpruceWoodplanksBig
+  tag: CP14RecipeWorkbench
+  category: FloorTile
+  craftTime: 1
+  requirements:
+  - !type:StackResource
+    stack: CP14WoodenPlanks
+    count: 1
+  result: CP14FloorTileSpruceWoodplanksBig
+  resultCount: 4
+
+- type: CP14Recipe
+  id: CP14FloorTileSpruceWoodplanksCruciform
+  tag: CP14RecipeWorkbench
+  category: FloorTile
+  craftTime: 1
+  requirements:
+  - !type:StackResource
+    stack: CP14WoodenPlanks
+    count: 1
+  result: CP14FloorTileSpruceWoodplanksCruciform
+  resultCount: 4
+
+- type: CP14Recipe
+  id: CP14FloorTileSpruceWoodplanksStairs
+  tag: CP14RecipeWorkbench
+  category: FloorTile
+  craftTime: 1
+  requirements:
+  - !type:StackResource
+    stack: CP14WoodenPlanks
+    count: 1
+  result: CP14FloorTileSpruceWoodplanksStairs
+  resultCount: 4
+
+### /SPRUCE
 
 - type: CP14Recipe
   id: CP14FloorTileBirchWoodplanks
