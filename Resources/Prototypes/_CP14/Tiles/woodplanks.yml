@@ -754,7 +754,7 @@
 #/broken
 ### /OAK
 
-### DARK
+### SPRUCE
 
 - type: tile #Default
   editorHidden: false
@@ -780,7 +780,7 @@
   baseTurf: CP14FloorFoundation
   isSubfloor: false
   deconstructTools: [ Prying ]
-  itemDrop: CP14FloorSpruceWoodPlanks
+  itemDrop: CP14FloorTileSpruceWoodPlanks
   footstepSounds:
     collection: FootstepWood
   heatCapacity: 10000
@@ -811,7 +811,7 @@
   baseTurf: CP14FloorFoundation
   isSubfloor: false
   deconstructTools: [ Prying ]
-  itemDrop: CP14FloorSpruceWoodPlanksBig
+  itemDrop: CP14FloorTileSpruceWoodPlanksBig
   footstepSounds:
     collection: FootstepWood
   heatCapacity: 10000
@@ -842,7 +842,7 @@
   baseTurf: CP14FloorFoundation
   isSubfloor: false
   deconstructTools: [ Prying ]
-  itemDrop: CP14FloorSpruceWoodPlanksCruciform
+  itemDrop: CP14FloorTileSpruceWoodPlanksCruciform
   footstepSounds:
     collection: FootstepWood
   heatCapacity: 10000
@@ -873,7 +873,7 @@
   baseTurf: CP14FloorFoundation
   isSubfloor: false
   deconstructTools: [ Prying ]
-  itemDrop: CP14FloorSpruceWoodPlanksStairways
+  itemDrop: CP14FloorTileSpruceWoodPlanksStairways
   footstepSounds:
     collection: FootstepWood
   heatCapacity: 10000

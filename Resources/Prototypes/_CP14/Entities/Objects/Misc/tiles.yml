@@ -88,6 +88,8 @@
     materialComposition:
       CP14MarbleStone: 5
 
+### OAK
+
 - type: entity
   parent: CP14FloorTileBase
   id: CP14FloorTileOakWoodplanks
@@ -171,6 +173,96 @@
   - type: PhysicalComposition
     materialComposition:
       CP14WoodenPlanks: 5
+
+### /OAK
+
+### SPRUCE
+
+- type: entity
+  parent: CP14FloorTileBase
+  id: CP14FloorTileSpruceWoodplanks
+  name: spruce woodplanks
+  components:
+  - type: Sprite
+    state: spruce_woodplanks
+  - type: FloorTile
+    placeTileSound:
+      path: /Audio/Effects/woodenclosetclose.ogg
+      params:
+        variation: 0.03
+        volume: 2
+    outputs:
+      - CP14FloorSpruceWoodPlanks
+  - type: Stack
+    stackType: CP14FloorTileSpruceWoodplanks
+  - type: PhysicalComposition
+    materialComposition:
+      CP14WoodenPlanks: 5
+
+- type: entity
+  parent: CP14FloorTileBase
+  id: CP14FloorTileSpruceWoodplanksBig
+  name: spruce big woodplanks
+  components:
+  - type: Sprite
+    state: spruce_woodplanks_big
+  - type: FloorTile
+    placeTileSound:
+      path: /Audio/Effects/woodenclosetclose.ogg
+      params:
+        variation: 0.03
+        volume: 2
+    outputs:
+      - CP14FloorSpruceWoodPlanksBig
+  - type: Stack
+    stackType: CP14FloorTileSpruceWoodplanksBig
+  - type: PhysicalComposition
+    materialComposition:
+      CP14WoodenPlanks: 5
+
+- type: entity
+  parent: CP14FloorTileBase
+  id: CP14FloorTileSpruceWoodplanksCruciform
+  name: spruce cruciform woodplanks
+  components:
+  - type: Sprite
+    state: spruce_woodplanks_cruciform
+  - type: FloorTile
+    placeTileSound:
+      path: /Audio/Effects/woodenclosetclose.ogg
+      params:
+        variation: 0.03
+        volume: 2
+    outputs:
+      - CP14FloorSpruceWoodPlanksCruciform
+  - type: Stack
+    stackType: CP14FloorTileSpruceWoodplanksCruciform
+  - type: PhysicalComposition
+    materialComposition:
+      CP14WoodenPlanks: 5
+
+- type: entity
+  parent: CP14FloorTileBase
+  id: CP14FloorTileSpruceWoodplanksStairs
+  name: spruce stairs woodplanks
+  components:
+  - type: Sprite
+    state: spruce_woodplanks_stairways
+  - type: FloorTile
+    placeTileSound:
+      path: /Audio/Effects/woodenclosetclose.ogg
+      params:
+        variation: 0.03
+        volume: 2
+    outputs:
+      - CP14FloorSpruceWoodPlanksStairways
+  - type: Stack
+    stackType: CP14FloorTileSpruceWoodplanksStairs
+  - type: PhysicalComposition
+    materialComposition:
+      CP14WoodenPlanks: 5
+
+### /OAK
 
 - type: entity
   parent: CP14FloorTileBase
